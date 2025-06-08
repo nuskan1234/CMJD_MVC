@@ -1,4 +1,4 @@
-package dto;
+package edu.ijse.mvc.dto;
 
 public class ItemDto {
     
