@@ -8,6 +8,7 @@ package edu.ijse.mvc;
  *
  * @author HP
  */
+import edu.ijse.mvc.view.ItemView;
 public class Main {
 
     /**
@@ -16,6 +17,7 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hello");
+        new ItemView().setVisible(true);
     }
     
 }
